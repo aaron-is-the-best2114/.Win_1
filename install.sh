@@ -3,7 +3,7 @@ mv .win1x.conf ~/.win1x.conf
 echo Installing Dependencies
 cd ~
 sudo apt install automake libncurses-dev nasm libsdl-net1.2-dev libpcap-dev libfluidsynth-dev ffmpeg libavdevice58 libavformat-* libswscale-* libavcodec-*
-git clone https://github.com/joncampbell123/dosbox-x.git || true
+
 cd ~/dosbox-x
 ./build
 sudo make install
