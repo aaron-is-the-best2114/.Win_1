@@ -18,4 +18,4 @@ cd ~/.Win_1
 dosbox-x -conf install.conf
 dosbox-x -conf setup.conf
 
-sudo mv 
+sudo mv alacarte-made.desktop ~/.local/share/applications/alacarte-made.desktop
