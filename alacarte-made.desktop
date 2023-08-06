@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=Windows 1.x
-Exec=dosbox-x -conf win1x.conf
-Comment=Run the First Version of Windows
-Terminal=true
-Icon=~/.Win_1/Windows_logo_and_watermark_-_1985.png
-Type=Application
