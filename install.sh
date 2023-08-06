@@ -3,7 +3,7 @@ mv .win1x.conf ~/.win1x.conf
 echo Installing Dependencies
 cd ~
 sudo apt install automake libncurses-dev nasm libsdl-net1.2-dev libpcap-dev libfluidsynth-dev ffmpeg libavdevice58 libavformat-* libswscale-* libavcodec-*
-
+git clone https://github.com/joncampbell123/dosbox-x.git || true
 cd ~/dosbox-x
 ./build
 sudo make install
@@ -18,5 +18,3 @@ cp DISK5.IMG ~/.Win_1
 cd ~/.Win_1
 dosbox-x -conf install.conf
 dosbox-x -conf setup.conf
-
-sudo mv alacarte-made.desktop ~/.local/share/applications/alacarte-made.desktop
