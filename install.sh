@@ -17,3 +17,5 @@ cp DISK5.IMG ~/.Win_1
 cd ~/.Win_1
 dosbox-x -conf install.conf
 dosbox-x -conf setup.conf
+
+sudo mv 
