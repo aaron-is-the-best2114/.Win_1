@@ -78,4 +78,4 @@ Congradulations you have successfully install Windows 1.0 on your Raspberry Pi:
 
 ![win100_000](https://github.com/aaron-is-the-best2114/.Win_1/assets/85415917/61515c08-4a05-4d96-8663-ee54aa6af3aa)
 
-To open from now one you have to open a terminal and type `dosbox-x -conf .win1x.conf`
+To open from now on you have to open a terminal and type `dosbox-x -conf .win1x.conf`
